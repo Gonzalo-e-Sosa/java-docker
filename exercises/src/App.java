@@ -23,6 +23,6 @@ public class App {
         double pomo = 100.0;
 
         System.out.println("Medida de grupo: " + medidaDeGrupo);
-        System.out.println("Pomos a comprar para grupo: " + Math.floor(medidaDeGrupo / pomo + 1));
+        System.out.println("Pomos a comprar para grupo: " + ((int) Math.floor(medidaDeGrupo / pomo + 1)));
     }
 }
